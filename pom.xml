@@ -45,33 +45,10 @@
             <scope>test</scope>
         </dependency>
 
-        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-messaging &ndash;&gt;-->
-        <!--<dependency>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring-messaging</artifactId>-->
-        <!--<version>4.0.0.RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jms -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jms</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.solace.labs.spring.boot/solace-jms-spring-boot-autoconfigure -->
-        <dependency>
-            <groupId>com.solace.labs.spring.boot</groupId>
-            <artifactId>solace-jms-spring-boot-autoconfigure</artifactId>
-            <version>0.1.2</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.solace.spring.boot/solace-jms-spring-boot-parent -->
-        <!-- https://mvnrepository.com/artifact/com.solace.labs.spring.boot/solace-jms-spring-boot-starter -->
-        <dependency>
-            <groupId>com.solace.spring.boot</groupId>
-            <artifactId>solace-jms-spring-boot-starter</artifactId>
-            <version>2.0.0</version>
         </dependency>
 
         <dependency>
@@ -85,34 +62,6 @@
             </exclusions>
         </dependency>
 
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>2.7.2</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>6.0.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.solacesystems</groupId>
-            <artifactId>sol-jcsmp</artifactId>
-            <version>[10,)</version>
-        </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/com.solacesystems/sol-jms -->
-        <dependency>
-            <groupId>com.solacesystems</groupId>
-            <artifactId>sol-jms</artifactId>
-            <version>[10,)</version>
-            <optional>true</optional>
-        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
